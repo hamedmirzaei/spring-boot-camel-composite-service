@@ -1,5 +1,6 @@
 package spring.boot.camel.composite.service.compositerest;
 
+import spring.boot.camel.composite.service.compositerest.model.BaseInfo;
 import spring.boot.camel.composite.service.compositerest.model.Customer;
 import spring.boot.camel.composite.service.compositerest.processor.MyProcessor;
 import spring.boot.camel.composite.service.compositerest.strategy.MyAggregationStrategy;
@@ -35,8 +36,8 @@ public class CompositeRestApplication extends RouteBuilder {
             .log("Body after marshal: ${body}")
             .removeHeaders("CamelHttp*")
             .setHeader(Exchange.HTTP_METHOD, constant("GET"))
-            .enrich().simple("jetty:http://localhost:8086/baseinfos/id/${header[biid]}").aggregationStrategy(new MyAggregationStrategy())
-            .log("Body after enrich: ${body}")
-            .setHeader(Exchange.CONTENT_TYPE, constant("text/xml"));
+            .enrich().simple("jetty:http://localhost:8086/baseinfos/id/${header[biid]}")
+            .aggregationStrategy(new MyAggregationStrategy())
+            .log("Body after enrich: ${body}");
     }
 }

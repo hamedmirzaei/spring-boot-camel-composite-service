@@ -1,21 +1,19 @@
 package spring.boot.camel.composite.service.compositerest.model;
 
-
-public class Customer {
-
+public class FullCustomer {
     private Long id;
-
-    private Long baseInfoId;
 
     private Long cifNumber;
 
-    public Customer(Long id, Long baseInfoId, Long cifNumber) {
-        this.id = id;
-        this.baseInfoId = baseInfoId;
-        this.cifNumber = cifNumber;
+    private BaseInfo baseInfo;
+
+    public FullCustomer() {
     }
 
-    public Customer() {
+    public FullCustomer(Long id, Long cifNumber, BaseInfo baseInfo) {
+        this.id = id;
+        this.cifNumber = cifNumber;
+        this.baseInfo = baseInfo;
     }
 
     public Long getId() {
@@ -26,14 +24,6 @@ public class Customer {
         this.id = id;
     }
 
-    public Long getBaseInfoId() {
-        return baseInfoId;
-    }
-
-    public void setBaseInfoId(Long baseInfoId) {
-        this.baseInfoId = baseInfoId;
-    }
-
     public Long getCifNumber() {
         return cifNumber;
     }
@@ -42,12 +32,20 @@ public class Customer {
         this.cifNumber = cifNumber;
     }
 
+    public BaseInfo getBaseInfo() {
+        return baseInfo;
+    }
+
+    public void setBaseInfo(BaseInfo baseInfo) {
+        this.baseInfo = baseInfo;
+    }
+
     @Override
     public String toString() {
-        return "Customer{" +
+        return "FullCustomer{" +
                 "id=" + id +
-                ", baseInfoId=" + baseInfoId +
                 ", cifNumber=" + cifNumber +
+                ", baseInfo=" + baseInfo +
                 '}';
     }
 }
