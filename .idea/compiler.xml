@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="base-info-service" />
+        <module name="composite-rest" />
+        <module name="customer-service" />
+        <module name="spring-boot-apache-camel-composite-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="base-info-service" target="1.8" />
+      <module name="composite-rest" target="1.8" />
+      <module name="customer-service" target="1.8" />
+      <module name="spring-boot-apache-camel-composite-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

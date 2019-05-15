@@ -1,0 +1,5 @@
+CREATE TABLE CUSTOMER (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  baseInfoId INT,
+  cifNumber INT
+);
