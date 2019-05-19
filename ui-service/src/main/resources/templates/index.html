@@ -78,7 +78,7 @@
             <td>Cif Number</td>
             <td>Full Name</td>
         </tr>
-        <tr>
+        <tr th:each="fullcustomer: ${fullcustomers}">
             <td th:text="${fullcustomer.id}">ID</td>
             <td th:text="${fullcustomer.cifNumber}">Cif Number</td>
             <td th:text="${fullcustomer.baseInfo.firstName} + ' ' + ${fullcustomer.baseInfo.lastName}">Full Name</td>
