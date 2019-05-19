@@ -1,4 +1,4 @@
-package spring.boot.camel.composite.service.compositerest.model;
+package spring.boot.cloud.uiservice;
 
 import java.io.Serializable;
 

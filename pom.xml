@@ -19,6 +19,7 @@
         <module>base-info-service</module>
         <module>customer-service</module>
         <module>composite-rest</module>
+        <module>ui-service</module>
     </modules>
 
 

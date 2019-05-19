@@ -2,6 +2,7 @@ package spring.boot.camel.composite.service.compositerest;
 
 import spring.boot.camel.composite.service.compositerest.model.BaseInfo;
 import spring.boot.camel.composite.service.compositerest.model.Customer;
+import spring.boot.camel.composite.service.compositerest.model.FullCustomer;
 import spring.boot.camel.composite.service.compositerest.processor.MyProcessor;
 import spring.boot.camel.composite.service.compositerest.strategy.MyAggregationStrategy;
 import lombok.extern.slf4j.Slf4j;
@@ -38,6 +39,9 @@ public class CompositeRestApplication extends RouteBuilder {
             .setHeader(Exchange.HTTP_METHOD, constant("GET"))
             .enrich().simple("jetty:http://localhost:8086/baseinfos/id/${header[biid]}")
             .aggregationStrategy(new MyAggregationStrategy())
+            /*.unmarshal().json(JsonLibrary.Jackson, FullCustomer.class)*/
+            .setHeader(Exchange.CONTENT_TYPE, simple("application/json"))
+            .setHeader(Exchange.CHARSET_NAME, simple("utf-8"))
             .log("Body after enrich: ${body}");
     }
 }

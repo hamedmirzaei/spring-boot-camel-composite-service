@@ -10,6 +10,7 @@
         <module name="composite-rest" />
         <module name="customer-service" />
         <module name="spring-boot-apache-camel-composite-service" />
+        <module name="ui-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="composite-rest" target="1.8" />
       <module name="customer-service" target="1.8" />
       <module name="spring-boot-apache-camel-composite-service" target="1.8" />
+      <module name="ui-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

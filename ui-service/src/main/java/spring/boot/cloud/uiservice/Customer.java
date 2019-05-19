@@ -1,24 +1,13 @@
-package spring.boot.camel.composite.service.compositerest.model;
+package spring.boot.cloud.uiservice;
 
 
-import java.io.Serializable;
-
-public class Customer implements Serializable {
+public class Customer {
 
     private Long id;
 
     private Long baseInfoId;
 
     private Long cifNumber;
-
-    public Customer(Long id, Long baseInfoId, Long cifNumber) {
-        this.id = id;
-        this.baseInfoId = baseInfoId;
-        this.cifNumber = cifNumber;
-    }
-
-    public Customer() {
-    }
 
     public Long getId() {
         return id;
@@ -42,6 +31,15 @@ public class Customer implements Serializable {
 
     public void setCifNumber(Long cifNumber) {
         this.cifNumber = cifNumber;
+    }
+
+    public Customer(Long id, Long baseInfoId, Long cifNumber) {
+        this.id = id;
+        this.baseInfoId = baseInfoId;
+        this.cifNumber = cifNumber;
+    }
+
+    public Customer() {
     }
 
     @Override
