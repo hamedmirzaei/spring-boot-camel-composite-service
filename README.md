@@ -12,6 +12,10 @@ This is a simple example to show you how to implement a composite service from s
 * [Database] `H2`
 
 # How it works
+
+![Architecture](imgs/composite-service-arch.png)
+
+
 This is a simple banking business flow. There is two simple services `Customer` and `Base Info`. 
 Each customer has a one-to-one relationship with base info which stores it's first name and last name.
 Each of these services is implemented as a `Spring Boot` application and simply on different ports. 

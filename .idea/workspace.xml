@@ -2,37 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d06d5da-a7e7-4c80-806a-cdc6afe3ec42" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ui-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/BaseInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/FullCustomer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/UIController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/UiServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/src/main/resources/static/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/src/main/resources/static/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/src/main/resources/static/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/src/main/resources/static/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/src/main/resources/static/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/src/main/resources/static/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui-service/src/test/java/spring/boot/cloud/uiservice/UiServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/composite-service-arch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-service/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base-info-service/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/base-info-service/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/CompositeRestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/CompositeRestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/model/BaseInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/model/BaseInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/model/FullCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/model/FullCustomer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/data.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer-service/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/resources/schema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/base-info-service/target/" />
@@ -48,77 +23,94 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="UIController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/UIController.java">
+      <file leaf-file-name="CompositeRestApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/CompositeRestApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="39" column="57" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
+            <state relative-caret-position="61">
+              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customer-service/src/main/java/spring/boot/camel/composite/service/customerservice/model/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+      <file leaf-file-name="composite-service-arch.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/imgs/composite-service-arch.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="238">
+                <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customer-service/src/main/java/spring/boot/camel/composite/service/customerservice/controller/CustomerController.java">
+      <file leaf-file-name="BaseInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/model/BaseInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="27" />
+            <state relative-caret-position="34">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="FullCustomer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/FullCustomer.java">
+        <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/model/FullCustomer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="34">
+              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customer-service/src/main/resources/schema.sql">
+      <file leaf-file-name="MyProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/processor/MyProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="170">
+              <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base-info-service/src/main/resources/data.sql">
+      <file leaf-file-name="MyAggregationStrategy.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/strategy/MyAggregationStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
+            <state relative-caret-position="184">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customer-service/src/main/resources/data.sql">
+      <file leaf-file-name="BaseInfoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base-info-service/src/main/java/spring/boot/camel/composite/service/baseinfoservice/service/BaseInfoService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="187">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ui-service/src/main/resources/templates/index.html">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base-info-service/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="-78">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompositeRestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/controller/CompositeRestController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -171,6 +163,7 @@
         <option value="$PROJECT_DIR$/customer-service/src/main/resources/data.sql" />
         <option value="$PROJECT_DIR$/customer-service/src/main/resources/schema.sql" />
         <option value="$PROJECT_DIR$/ui-service/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -199,8 +192,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -211,103 +205,12 @@
             <path>
               <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="base-info-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="base-info-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="base-info-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="base-info-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="base-info-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="customer-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,6 +232,7 @@
       <recent name="spring.boot.camel.composite.service.compositerest.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\h.mirzaei\IdeaProjects\spring-boot-apache-camel-composite-service\imgs" />
       <recent name="C:\Users\h.mirzaei\IdeaProjects\spring-boot-apache-camel-composite-service\ui-service\src\main\resources\static" />
       <recent name="C:\Users\h.mirzaei\IdeaProjects\spring-boot-apache-camel-composite-service" />
     </key>
@@ -345,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UiServiceApplication">
+  <component name="RunManager" selected="Spring Boot.CompositeRestApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -426,11 +330,27 @@
       <workItem from="1557912949515" duration="9650000" />
       <workItem from="1558184916753" duration="268000" />
       <workItem from="1558254510832" duration="9041000" />
+      <workItem from="1558325936044" duration="4893000" />
     </task>
+    <task id="LOCAL-00001" summary="tables style changed">
+      <created>1558267931436</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558267931436</updated>
+    </task>
+    <task id="LOCAL-00002" summary="tables hover style changed">
+      <created>1558268562442</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1558268562442</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18959000" />
+    <option name="totallyTimeSpent" value="28015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -455,10 +375,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46771654" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15433072" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32650074" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30893117" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="BPMNPalette" order="3" />
@@ -478,16 +398,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="tables style changed" />
+    <MESSAGE value="tables hover style changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="tables hover style changed" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/UIController.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="7" />
     </breakpoint-manager>
   </component>
@@ -543,24 +460,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/CompositeRestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/customer-service/src/main/java/spring/boot/camel/composite/service/customerservice/repository/CustomerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-info-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -578,13 +481,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-info-service/src/main/java/spring/boot/camel/composite/service/baseinfoservice/model/BaseInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -665,13 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base-info-service/src/main/java/spring/boot/camel/composite/service/baseinfoservice/BaseInfoServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui-service/src/main/resources/bootstrap.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -683,59 +572,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="62" column="16" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-          <folding>
-            <element signature="e#2311#2312#0" expanded="true" />
-            <element signature="e#2343#2344#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composite-rest/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/controller/CompositeRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/HelloObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/model/FullCustomer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/HelloObject.java" />
     <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/model/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="41">
           <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/model/BaseInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -753,58 +597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/CompositeRestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="43" column="53" lean-forward="true" selection-start-line="43" selection-start-column="53" selection-end-line="43" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="74">
           <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-service/src/main/resources/static/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/strategy/MyAggregationStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="29" column="61" selection-start-line="29" selection-start-column="61" selection-end-line="29" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/UiServiceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-info-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/BaseInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base-info-service/src/main/java/spring/boot/camel/composite/service/baseinfoservice/controller/BaseInfoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customer-service/src/main/java/spring/boot/camel/composite/service/customerservice/controller/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -822,24 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/UIController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="39" column="57" selection-start-line="39" selection-start-column="57" selection-end-line="39" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/base-info-service/src/main/resources/data.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customer-service/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -849,9 +631,6 @@
           <caret line="1" column="13" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/customer-service/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/customer-service/src/main/resources/schema.sql">
       <provider selected="true" editor-type-id="text-editor">
@@ -867,13 +646,159 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/customer-service/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="60" selection-start-column="60" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ui-service/src/main/resources/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="221">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/UIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/UiServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/BaseInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-service/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-info-service/src/main/java/spring/boot/camel/composite/service/baseinfoservice/model/BaseInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-info-service/src/main/java/spring/boot/camel/composite/service/baseinfoservice/controller/BaseInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-info-service/src/main/java/spring/boot/camel/composite/service/baseinfoservice/repository/BaseInfoRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-info-service/src/main/java/spring/boot/camel/composite/service/baseinfoservice/BaseInfoServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer-service/src/main/java/spring/boot/camel/composite/service/customerservice/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/model/BaseInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/model/FullCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/strategy/MyAggregationStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/processor/MyProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/controller/CompositeRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composite-rest/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-info-service/src/main/java/spring/boot/camel/composite/service/baseinfoservice/service/BaseInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base-info-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/CompositeRestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="59" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/composite-service-arch.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="238">
+            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
