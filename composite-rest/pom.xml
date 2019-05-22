@@ -6,9 +6,8 @@
         <groupId>spring.boot.camel.composite.service</groupId>
         <artifactId>spring-boot-apache-camel-composite-service</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>spring.boot.camel.composite.service.compositerest</groupId>
+    <groupId>spring.boot.camel.composite.service</groupId>
     <artifactId>composite-rest</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>composite-rest</name>
@@ -19,6 +18,11 @@
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>spring.boot.camel.composite.service</groupId>
+            <artifactId>common-model</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
@@ -60,6 +64,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>spring.boot.camel.composite.service</groupId>
+            <artifactId>common-model</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

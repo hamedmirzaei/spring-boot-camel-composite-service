@@ -2,21 +2,25 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="base-info-service" />
+        <module name="common-model" />
         <module name="composite-rest" />
         <module name="customer-service" />
-        <module name="spring-boot-apache-camel-composite-service" />
+        <module name="legal-base-info-service" />
+        <module name="real-base-info-service" />
         <module name="ui-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="base-info-service" target="1.8" />
+      <module name="common-model" target="1.8" />
       <module name="composite-rest" target="1.8" />
       <module name="customer-service" target="1.8" />
+      <module name="legal-base-info-service" target="1.8" />
+      <module name="real-base-info-service" target="1.8" />
       <module name="spring-boot-apache-camel-composite-service" target="1.8" />
       <module name="ui-service" target="1.8" />
     </bytecodeTargetLevel>

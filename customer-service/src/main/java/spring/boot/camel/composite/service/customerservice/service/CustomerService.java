@@ -27,7 +27,7 @@ public class CustomerService {
         if (customer.isPresent()) {
             return customer.get();
         } else {
-            return new Customer(0L, 0L, 0L);
+            return new Customer(0L, 0L, 0L, "Unknown");
         }
     }
 

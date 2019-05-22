@@ -10,11 +10,14 @@ public class Customer {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
-    @Column(name = "baseinfoid")
+    @Column(name = "base_info_id")
     private Long baseInfoId;
 
-    @Column(name = "cifnumber")
+    @Column(name = "cif_number")
     private Long cifNumber;
+
+    @Column(name = "customer_type")
+    private String customerType;
 
     public Long getId() {
         return id;
@@ -40,10 +43,19 @@ public class Customer {
         this.cifNumber = cifNumber;
     }
 
-    public Customer(Long id, Long baseInfoId, Long cifNumber) {
+    public String getCustomerType() {
+        return customerType;
+    }
+
+    public void setCustomerType(String customerType) {
+        this.customerType = customerType;
+    }
+
+    public Customer(Long id, Long baseInfoId, Long cifNumber, String customerType) {
         this.id = id;
         this.baseInfoId = baseInfoId;
         this.cifNumber = cifNumber;
+        this.customerType = customerType;
     }
 
     public Customer() {

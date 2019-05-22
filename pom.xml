@@ -14,12 +14,15 @@
     <groupId>spring.boot.camel.composite.service</groupId>
     <artifactId>spring-boot-apache-camel-composite-service</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <modules>
-        <module>base-info-service</module>
+        <module>real-base-info-service</module>
+        <module>legal-base-info-service</module>
         <module>customer-service</module>
         <module>composite-rest</module>
         <module>ui-service</module>
+        <module>common-model</module>
     </modules>
 
 

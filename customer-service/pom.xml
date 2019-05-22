@@ -6,9 +6,8 @@
         <groupId>spring.boot.camel.composite.service</groupId>
         <artifactId>spring-boot-apache-camel-composite-service</artifactId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>spring.boot.camel.composite.service.customerservice</groupId>
+    <groupId>spring.boot.camel.composite.service</groupId>
     <artifactId>customer-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>customer-service</name>

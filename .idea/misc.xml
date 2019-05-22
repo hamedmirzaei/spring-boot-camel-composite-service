@@ -10,6 +10,8 @@
         <option value="$PROJECT_DIR$/base-info-service/pom.xml" />
         <option value="$PROJECT_DIR$/composite-rest/pom.xml" />
         <option value="$PROJECT_DIR$/customer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/common-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/common-model/pom.xml" />
       </list>
     </option>
   </component>
