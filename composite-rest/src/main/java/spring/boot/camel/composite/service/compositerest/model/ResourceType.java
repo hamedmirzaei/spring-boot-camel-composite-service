@@ -1,4 +1,4 @@
-package spring.boot.camel.composite.service.compositerest;
+package spring.boot.camel.composite.service.compositerest.model;
 
 public class ResourceType {
 

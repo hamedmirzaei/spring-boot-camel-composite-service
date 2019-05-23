@@ -8,7 +8,7 @@ import spring.boot.camel.composite.service.commonmodel.model.CompositeEntity;
 import spring.boot.camel.composite.service.commonmodel.model.Customer;
 import spring.boot.camel.composite.service.commonmodel.model.LegalBaseInfo;
 import spring.boot.camel.composite.service.commonmodel.model.RealBaseInfo;
-import spring.boot.camel.composite.service.compositerest.ResourceType;
+import spring.boot.camel.composite.service.compositerest.model.ResourceType;
 
 import java.lang.reflect.Type;
 import java.util.List;

@@ -30,5 +30,7 @@ is responsible to interact with all the other three services.
 * Start `real-base-info-service` module. It can be verified using url [http://localhost:8086/realbaseinfos](http://localhost:8086/realbaseinfos).
 * Start `legal-base-info-service` module. It can be verified using url [http://localhost:8087/legalbaseinfos](http://localhost:8087/legalbaseinfos).
 * Start `composite-rest` module. It can be verified using url [http://localhost:8080/customerBaseInfos?cid=1](http://localhost:8080/customerBaseInfos?cid=1).
-* Start `ui-service` module and look at [http://localhost:8088/](http://localhost:8088/) to view real customers and
-look at [http://localhost:8088/legal](http://localhost:8088/legal) to view legal customers.
+* Start `ui-service` module and look at [http://localhost:8088/](http://localhost:8088/) to view real customers.
+Look at [http://localhost:8088/legal](http://localhost:8088/legal) to view legal customers.
+Look at [http://localhost:8088/parallel](http://localhost:8088/parallel) to view customers, real base info and legal
+base info which have been retrieved in parallel.

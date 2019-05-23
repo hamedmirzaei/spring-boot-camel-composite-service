@@ -17,15 +17,16 @@
     </style>
 </head>
 <body>
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand" href="#">Service Composition Demo</a>
         </div>
         <ul class="nav navbar-nav">
-            <li class="active"><a href="/">Real Customers</a></li>
+            <li><a href="/">Real Customers</a></li>
             <li><a href="/legal">Legal Customers</a></li>
-            <li><a href="/parallel">All in Parallel</a></li>
+            <li class="active"><a href="/parallel">All in Parallel</a></li>
         </ul>
     </div>
 </nav>
@@ -36,29 +37,7 @@
     <div class="col-xs-6">
         <!--<div class="container">-->
         <div class="page-header">
-            <h3>Customer Information Service</h3>
-        </div>
-
-        <table class="table table-striped table-bordered table-hover table-condensed">
-            <tr>
-                <td>ID</td>
-                <td>Cif Number</td>
-                <td>Customer Type</td>
-                <td>Base Info ID</td>
-            </tr>
-            <tr th:each="customer: ${customers}">
-                <td th:text="${customer.id}">ID</td>
-                <td th:text="${customer.cifNumber}">Cif Number</td>
-                <td th:text="${customer.customerType}">Customer Type</td>
-                <td th:text="${customer.baseInfoId}">Base Info ID</td>
-            </tr>
-        </table>
-        <!--</div>-->
-    </div>
-    <div class="col-xs-6">
-        <!--<div class="container">-->
-        <div class="page-header">
-            <h3>Real Base Information Service</h3>
+            <h3>Real Base Information</h3>
         </div>
 
         <table class="table table-striped table-bordered table-hover table-condensed">
@@ -67,31 +46,56 @@
                 <td>First Name</td>
                 <td>Last Name</td>
             </tr>
-            <tr th:each="realBaseInfo: ${realBaseInfos}">
+            <tr th:each="realBaseInfo: ${compositeEntity.realBaseInfos}">
                 <td th:text="${realBaseInfo.id}">ID</td>
                 <td th:text="${realBaseInfo.firstName}">First Name</td>
                 <td th:text="${realBaseInfo.lastName}">Last Name</td>
             </tr>
         </table>
+        <!--</div>-->
+    </div>
+    <div class="col-xs-6">
+        <!--<div class="container">-->
+        <div class="page-header">
+            <h3>Legal Base Information</h3>
+        </div>
+
+        <table class="table table-striped table-bordered table-hover table-condensed">
+            <tr>
+                <td>ID</td>
+                <td>Organization Name</td>
+                <td>Organization Code</td>
+                <td>Address</td>
+            </tr>
+            <tr th:each="legalBaseInfo: ${compositeEntity.legalBaseInfos}">
+                <td th:text="${legalBaseInfo.id}">ID</td>
+                <td th:text="${legalBaseInfo.organizationName}">Organization Name</td>
+                <td th:text="${legalBaseInfo.organizationCode}">Organization Code</td>
+                <td th:text="${legalBaseInfo.address}">Address</td>
+            </tr>
+        </table>
+        <!--</div>-->
     </div>
 </div>
 
 
 <div class="container text-center pagination-centered">
     <div class="page-header">
-        <h3>Real Customers (Composite Service)</h3>
+        <h3>Customer Information Service</h3>
     </div>
 
     <table class="table table-striped table-bordered table-hover table-condensed">
         <tr>
             <td>ID</td>
             <td>Cif Number</td>
-            <td>Full Name</td>
+            <td>Customer Type</td>
+            <td>Base Info ID</td>
         </tr>
-        <tr th:each="fullRealCustomer: ${fullRealCustomers}">
-            <td th:text="${fullRealCustomer.id}">ID</td>
-            <td th:text="${fullRealCustomer.cifNumber}">Cif Number</td>
-            <td th:text="${fullRealCustomer.realBaseInfo.firstName} + ' ' + ${fullRealCustomer.realBaseInfo.lastName}">Full Name</td>
+        <tr th:each="customer: ${compositeEntity.customers}">
+            <td th:text="${customer.id}">ID</td>
+            <td th:text="${customer.cifNumber}">Cif Number</td>
+            <td th:text="${customer.customerType}">Customer Type</td>
+            <td th:text="${customer.baseInfoId}">Base Info ID</td>
         </tr>
     </table>
 </div>

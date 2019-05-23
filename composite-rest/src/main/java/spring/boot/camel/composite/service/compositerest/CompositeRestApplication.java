@@ -5,12 +5,11 @@ import org.apache.camel.Exchange;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import spring.boot.camel.composite.service.compositerest.model.ResourceType;
 import spring.boot.camel.composite.service.compositerest.processor.HeaderAdderProcessor;
 import spring.boot.camel.composite.service.compositerest.strategy.AllAggregationStrategy;
 import spring.boot.camel.composite.service.compositerest.strategy.LegalCustomerAggregationStrategy;
 import spring.boot.camel.composite.service.compositerest.strategy.RealCustomerAggregationStrategy;
-
-import javax.annotation.Resource;
 
 @SpringBootApplication
 @Slf4j
@@ -54,9 +53,10 @@ public class CompositeRestApplication extends RouteBuilder {
 
 
         from("jetty:http://localhost:8080/all")
+                .setHeader(Exchange.CONTENT_TYPE, simple("application/json"))
+                .setHeader(Exchange.CHARSET_NAME, simple("utf-8"))
                 .multicast(new AllAggregationStrategy())
-                .parallelProcessing().timeout(500).to("direct:a", "direct:b", "direct:c")
-                .end();
+                .parallelProcessing().timeout(500).to("direct:a", "direct:b", "direct:c");
         from("direct:a")
                 .setHeader(Exchange.HTTP_URI, simple("http://localhost:8085/customers"))
                 .setHeader("RESOURCE_TYPE", constant(ResourceType.CUSTOMERS))
