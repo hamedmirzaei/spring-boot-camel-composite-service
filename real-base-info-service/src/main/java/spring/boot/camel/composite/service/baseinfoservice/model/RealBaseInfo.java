@@ -1,10 +1,11 @@
 package spring.boot.camel.composite.service.baseinfoservice.model;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 @Entity
 @Table(name = "REAL_BASE_INFO")
-public class RealBaseInfo {
+public class RealBaseInfo implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

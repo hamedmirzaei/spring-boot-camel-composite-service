@@ -6,6 +6,7 @@ import org.apache.camel.builder.RouteBuilder;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import spring.boot.camel.composite.service.compositerest.processor.HeaderAdderProcessor;
+import spring.boot.camel.composite.service.compositerest.strategy.AllAggregationStrategy;
 import spring.boot.camel.composite.service.compositerest.strategy.LegalCustomerAggregationStrategy;
 import spring.boot.camel.composite.service.compositerest.strategy.RealCustomerAggregationStrategy;
 
@@ -24,21 +25,15 @@ public class CompositeRestApplication extends RouteBuilder {
                 .removeHeaders("CamelHttp*")
                 .setHeader(Exchange.HTTP_METHOD, constant("GET"))
                 .toD("jetty:http://localhost:8085/customers/id/${header[cid]}")
-                /*.log("cid from url: ${header[cid]}")
-                .log("Body before unmarshal: ${body}")*/
-                //.unmarshal().json(JsonLibrary.Jackson, Customer.class)
                 .process(new HeaderAdderProcessor())
-                /*.log("Body after unmarshal.baseInfoId: ${body.baseInfoId}")
-                .log("Header after unmarshal.baseInfoId: ${header[biid]}")*/
-                //.marshal().json(JsonLibrary.Jackson, Customer.class)
                 .choice()
                 .when(header("type").isEqualTo("REAL"))
-                .to("jetty:http://localhost:8080/realcustomer")
+                .to("direct:realcustomer")
                 .when(header("type").isEqualTo("LEGAL"))
-                .to("jetty:http://localhost:8080/legalcustomer")
+                .to("direct:legalcustomer")
                 .otherwise().end();
 
-        from("jetty:http://localhost:8080/realcustomer")
+        from("direct:realcustomer")
                 .removeHeaders("CamelHttp*")
                 .setHeader(Exchange.HTTP_METHOD, constant("GET"))
                 .enrich().simple("jetty:http://localhost:8086/realbaseinfos/id/${header[biid]}")
@@ -46,12 +41,29 @@ public class CompositeRestApplication extends RouteBuilder {
                 .setHeader(Exchange.CONTENT_TYPE, simple("application/json"))
                 .setHeader(Exchange.CHARSET_NAME, simple("utf-8"));
 
-        from("jetty:http://localhost:8080/legalcustomer")
+        from("direct:legalcustomer")
                 .removeHeaders("CamelHttp*")
                 .setHeader(Exchange.HTTP_METHOD, constant("GET"))
                 .enrich().simple("jetty:http://localhost:8087/legalbaseinfos/id/${header[biid]}")
                 .aggregationStrategy(new LegalCustomerAggregationStrategy())
                 .setHeader(Exchange.CONTENT_TYPE, simple("application/json"))
                 .setHeader(Exchange.CHARSET_NAME, simple("utf-8"));
+
+
+
+        from("jetty:http://localhost:8080/all")
+                .multicast(new AllAggregationStrategy())
+                .parallelProcessing().timeout(500).to("direct:a", "direct:b", "direct:c")
+                .end();
+        from("direct:a")
+                .setHeader(Exchange.HTTP_URI, simple("http://localhost:8085/customers"))
+                .to("jetty:http://localhost:8085/customers");
+        from("direct:b")
+                .setHeader(Exchange.HTTP_URI, simple("http://localhost:8086/realbaseinfos"))
+                .to("jetty:http://localhost:8086/realbaseinfos");
+        from("direct:c")
+                .setHeader(Exchange.HTTP_URI, simple("http://localhost:8087/legalbaseinfos"))
+                .to("jetty:http://localhost:8087/legalbaseinfos");
+
     }
 }
