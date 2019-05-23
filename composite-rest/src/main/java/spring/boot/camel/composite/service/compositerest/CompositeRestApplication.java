@@ -10,6 +10,8 @@ import spring.boot.camel.composite.service.compositerest.strategy.AllAggregation
 import spring.boot.camel.composite.service.compositerest.strategy.LegalCustomerAggregationStrategy;
 import spring.boot.camel.composite.service.compositerest.strategy.RealCustomerAggregationStrategy;
 
+import javax.annotation.Resource;
+
 @SpringBootApplication
 @Slf4j
 public class CompositeRestApplication extends RouteBuilder {
@@ -57,12 +59,15 @@ public class CompositeRestApplication extends RouteBuilder {
                 .end();
         from("direct:a")
                 .setHeader(Exchange.HTTP_URI, simple("http://localhost:8085/customers"))
+                .setHeader("RESOURCE_TYPE", constant(ResourceType.CUSTOMERS))
                 .to("jetty:http://localhost:8085/customers");
         from("direct:b")
                 .setHeader(Exchange.HTTP_URI, simple("http://localhost:8086/realbaseinfos"))
+                .setHeader("RESOURCE_TYPE", constant(ResourceType.REAL_BASE_INFOS))
                 .to("jetty:http://localhost:8086/realbaseinfos");
         from("direct:c")
                 .setHeader(Exchange.HTTP_URI, simple("http://localhost:8087/legalbaseinfos"))
+                .setHeader("RESOURCE_TYPE", constant(ResourceType.LEGAL_BASE_INFOS))
                 .to("jetty:http://localhost:8087/legalbaseinfos");
 
     }
