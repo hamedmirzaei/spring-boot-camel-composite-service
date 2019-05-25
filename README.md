@@ -13,6 +13,8 @@ This is a simple example to show you how to implement a composite service from s
 
 # How it works
 
+Bellow is the relationship between different services provided in the example.
+
 ![Architecture](imgs/composite-service-arch.png)
 
 
