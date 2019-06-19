@@ -3,11 +3,17 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/common-model/common-model.iml" filepath="$PROJECT_DIR$/common-model/common-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-model/common-model.iml" filepath="$PROJECT_DIR$/common-model/common-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/composite-rest/composite-rest.iml" filepath="$PROJECT_DIR$/composite-rest/composite-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/composite-rest/composite-rest.iml" filepath="$PROJECT_DIR$/composite-rest/composite-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/customer-service/customer-service.iml" filepath="$PROJECT_DIR$/customer-service/customer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customer-service/customer-service.iml" filepath="$PROJECT_DIR$/customer-service/customer-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/legal-base-info-service/legal-base-info-service.iml" filepath="$PROJECT_DIR$/legal-base-info-service/legal-base-info-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/legal-base-info-service/legal-base-info-service.iml" filepath="$PROJECT_DIR$/legal-base-info-service/legal-base-info-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/real-base-info-service/real-base-info-service.iml" filepath="$PROJECT_DIR$/real-base-info-service/real-base-info-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/real-base-info-service/real-base-info-service.iml" filepath="$PROJECT_DIR$/real-base-info-service/real-base-info-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-boot-camel-composite-service.iml" filepath="$PROJECT_DIR$/.idea/spring-boot-camel-composite-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui-service/ui-service.iml" filepath="$PROJECT_DIR$/ui-service/ui-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/ui-service/ui-service.iml" filepath="$PROJECT_DIR$/ui-service/ui-service.iml" />
     </modules>
   </component>
