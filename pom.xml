@@ -12,7 +12,7 @@
     </parent>
 
     <groupId>spring.boot.camel.composite.service</groupId>
-    <artifactId>spring-boot-apache-camel-composite-service</artifactId>
+    <artifactId>spring-boot-camel-composite-service</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 

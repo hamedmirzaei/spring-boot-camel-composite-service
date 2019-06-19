@@ -2,8 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d06d5da-a7e7-4c80-806a-cdc6afe3ec42" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imgs/composite-service-arch.png" beforeDir="false" afterPath="$PROJECT_DIR$/imgs/composite-service-arch.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring-boot-apache-camel-composite-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring-boot-camel-composite-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-model/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-model/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-model/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-model/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common-model/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composite-rest/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composite-rest/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composite-rest/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composite-rest/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composite-rest/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/legal-base-info-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/legal-base-info-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/legal-base-info-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/legal-base-info-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/legal-base-info-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/real-base-info-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real-base-info-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real-base-info-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real-base-info-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/real-base-info-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-service/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui-service/mvnw.cmd" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/base-info-service/target/" />
@@ -29,8 +59,8 @@
       <file leaf-file-name="RealBaseInfo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/real-base-info-service/src/main/java/spring/boot/camel/composite/service/baseinfoservice/model/RealBaseInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,17 +71,26 @@
       <file leaf-file-name="CompositeRestApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/CompositeRestApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="771">
+            <state relative-caret-position="799">
               <caret line="58" column="83" selection-start-line="58" selection-start-column="83" selection-end-line="58" selection-end-column="83" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UIController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UIController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/controller/UIController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="170">
+              <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -109,7 +148,6 @@
         <option value="$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/model/Customer.java" />
         <option value="$PROJECT_DIR$/common-demo/src/main/java/spring/boot/camel/composite/service/commondemo/model/LegalBaseInfo.java" />
         <option value="$PROJECT_DIR$/common-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/processor/HeaderAdderProcessor.java" />
         <option value="$PROJECT_DIR$/common-model/src/main/java/spring/boot/camel/composite/service/commonmodel/model/FullLegalCustomer.java" />
         <option value="$PROJECT_DIR$/common-model/src/main/java/spring/boot/camel/composite/service/commonmodel/model/FullRealCustomer.java" />
@@ -137,6 +175,7 @@
         <option value="$PROJECT_DIR$/common-model/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/common-model/pom.xml" />
         <option value="$PROJECT_DIR$/common-model/src/main/java/spring/boot/camel/composite/service/commonmodel/model/RealBaseInfo.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -175,70 +214,20 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="imgs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uiservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-boot-apache-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-boot-apache-camel-composite-service" type="462c0819:PsiDirectoryNode" />
-              <item name="ui-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="uiservice" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-camel-composite-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-boot-camel-composite-service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,6 +381,7 @@
       <workItem from="1558603427484" duration="3693000" />
       <workItem from="1558607965656" duration="1170000" />
       <workItem from="1558760823066" duration="1512000" />
+      <workItem from="1560939048736" duration="86000" />
     </task>
     <task id="LOCAL-00001" summary="tables style changed">
       <created>1558267931436</created>
@@ -411,45 +401,46 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82525000" />
+    <option name="totallyTimeSpent" value="82611000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Enso" order="11" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.26500732" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26929134" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32980332" />
       <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="BPMNPalette" order="6" />
+      <window_info anchor="right" id="SciView" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2976378" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="9" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26929134" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33016106" />
-      <window_info anchor="right" id="Bean Validation" order="10" />
-      <window_info id="Web" order="6" side_tool="true" />
-      <window_info anchor="right" id="BPMNPalette" order="6" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2976378" />
+      <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32913387" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+      <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913387" />
       <window_info anchor="right" id="Coverage" order="12" side_tool="true" weight="0.329429" />
     </layout>
@@ -526,6 +517,30 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/real-base-info-service/src/main/java/spring/boot/camel/composite/service/baseinfoservice/model/RealBaseInfo.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/CompositeRestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="58" column="83" selection-start-line="58" selection-start-column="83" selection-end-line="58" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/controller/UIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/real-base-info-service/src/main/java/spring/boot/camel/composite/service/baseinfoservice/model/RealBaseInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
@@ -536,13 +551,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/common-demo/src/main/java/spring/boot/camel/composite/service/commondemo/model/LegalBaseInfo.java" />
     <entry file="file://$PROJECT_DIR$/common-demo/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/model/Customer.java" />
     <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/BaseInfo.java" />
     <entry file="file://$PROJECT_DIR$/real-base-info-service/src/main/java/spring/boot/camel/composite/service/baseinfoservice/controller/RealBaseInfoController.java">
@@ -804,8 +812,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/real-base-info-service/src/main/java/spring/boot/camel/composite/service/baseinfoservice/model/RealBaseInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="306">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -814,13 +822,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/composite-rest/src/main/java/spring/boot/camel/composite/service/compositerest/CompositeRestApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="771">
+        <state relative-caret-position="799">
           <caret line="58" column="83" selection-start-line="58" selection-start-column="83" selection-end-line="58" selection-end-column="83" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imgs/composite-service-arch.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -834,8 +839,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ui-service/src/main/java/spring/boot/cloud/uiservice/controller/UIController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>

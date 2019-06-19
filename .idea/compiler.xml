@@ -21,7 +21,7 @@
       <module name="customer-service" target="1.8" />
       <module name="legal-base-info-service" target="1.8" />
       <module name="real-base-info-service" target="1.8" />
-      <module name="spring-boot-apache-camel-composite-service" target="1.8" />
+      <module name="spring-boot-camel-composite-service" target="1.8" />
       <module name="ui-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
